@@ -1,5 +1,4 @@
 # VotingApp
 ## To view app
-- Download as zip file
-- Uncompress
+- Unzip .xcodeproj file
 - Open in Xcode
