@@ -44,7 +44,7 @@ struct AddNewCandidate: View {
                 Text("Presidency Goals")
             }
             Section {
-                Stepper(("Number of scandals: " + String(ScandalCount)), value: $ScandalCount, in: 0...9223372036854775807)
+                Stepper(("Outrageous wrongdoings: " + String(ScandalCount)), value: $ScandalCount, in: 0...9223372036854775807)
                 Picker("Status:", selection: $Status) {
                     ForEach(StatusOptions, id: \.self) {
                         option in
